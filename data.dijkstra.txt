@@ -1,0 +1,36 @@
+10 11
+
+ 
+Adab 134 430
+Brazil 274 340
+Banqoq 289 441
+  
+Chinatown 289 571
+Dangerzone 470 453
+El-Capitan 478 562
+Frankfurt 621 449
+Groovestreet 637 550
+
+
+Haifa 814 496
+IT 828 297
+
+
+
+
+Adab Brazil 10
+Adab Chinatown 20
+Adab Banqoq 15
+Chinatown Dangerzone 30
+
+
+Chinatown El-Capitan 10
+Dangerzone Frankfurt 20
+Dangerzone Groovestreet 20
+El-Capitan Frankfurt 20
+El-Capitan Groovestreet 10
+
+Groovestreet Haifa 10
+Groovestreet IT 30
+Frankfurt Haifa 15
+Haifa IT 15

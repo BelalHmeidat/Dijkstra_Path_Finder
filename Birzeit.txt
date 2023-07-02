@@ -1,0 +1,106 @@
+40 49
+North_West_Point 512 243
+Back_Street 321 712
+Services 101 1240
+Abu_Ahmad 39 1474
+Main_Entrance 160 1758
+Science 582 1740
+Registration 497 1544
+Eng_Reg_Mall 530 1453
+Engineering 471 1381
+Workstations 533 1212
+Adab_Street 664 991
+Sports 915 684
+Art 1082 557 
+Shaheen 932 427
+Arts_Music 934 206
+Nursing 1218 169
+Press 1400 270
+Woman_Studies 1237 456
+Development 1433 480
+Press_Dev 1512 437
+Theatre 1719 209
+North_Entrance 1889 207
+Theatre_2 1889 41
+IT 1797 333
+Zaani 1668 561
+Education 1472 742
+Law_Art_Edu 1379 799
+Art_Woman 1261 684
+Law_2 1251 925
+Bank 1043 1056
+Council 870 1209
+Law 886 1323
+Mall 712 1444 
+Registration_2 738 1518
+Ritaj 888 1542 
+Pharmacy 826 1802
+Library 962 1772
+Graduate_Studies 1219 1804
+Business_Economics 1432 1785
+South_Entrance 1667 1822
+
+
+
+South_Entrance Business_Economics 53
+Business_Economics Graduate_Studies 40
+Graduate_Studies Library 65
+Library Pharmacy 25
+Library Ritaj 55
+Pharmacy Science 61
+Science Main_Entrance 92
+Main_Entrance Abu_Ahmad 70.5
+Abu_Ahmad Services 57
+Services Back_Street 126.5
+Back_Street North_West_Point 116
+North_West_Point Arts_Music 97
+Arts_Music Nursing 64
+Nursing Press 50
+Press Development 50
+Development Woman_Studies 45
+Woman_Studies Art 41
+Art Shaheen 50
+Shaheen North_West_Point 95
+Art Sports 48
+Sports Adab_Street 96
+Adab_Street Workstations 57
+Workstations Engineering 43
+Engineering Eng_Reg_Mall 18
+Eng_Reg_Mall Registration 22
+Registration Science 60
+Eng_Reg_Mall Mall 43
+Mall Ritaj 47
+Mall Registration_2 20
+Ritaj Registration_2 36
+Ritaj Law 49.5
+Mall Law 52
+Registration_2 Law 50
+Law Council 30
+Council Bank 55
+Bank Law_2 53
+Education Zaani 70
+Zaani IT 49
+IT Theatre 40
+Theatre North_Entrance 40
+North_Entrance Theatre_2 47
+IT North_Entrance 36
+Law_2 Law_Art_Edu 42
+Law_Art_Edu Education 24
+Law_Art_Edu Art_Woman 43
+Art_Woman Woman_Studies 42
+Art_Woman Art 44
+Zaani Press_Dev 49
+Press_Dev Development 22
+Press_Dev Press 38
+Press Woman_Studies 64
+Engineering Registration 35
+Press Theatre 70
+
+
+
+
+
+
+
+
+

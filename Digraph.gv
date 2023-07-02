@@ -1,0 +1,8 @@
+digraph {
+	IT [color=GREEN style=filled]
+	IT -> Zaani [label=49.0]
+	Zaani -> Education [label=70.0]
+	Education -> Law_Art_Edu [label=24.0]
+	Art_Woman [color=ORANGE style=filled]
+	Law_Art_Edu -> Art_Woman [label=43.0]
+}

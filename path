@@ -1,0 +1,8 @@
+digraph {
+	Engineering [color=GREEN style=filled]
+	Engineering -> Workstations [label=43.0]
+	Workstations -> "Adab Street" [label=57.0]
+	"Adab Street" -> Sports [label=96.0]
+	Art [color=ORANGE style=filled]
+	Sports -> Art [label=48.0]
+}
