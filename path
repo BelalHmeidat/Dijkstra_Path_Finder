@@ -1,8 +1,11 @@
 digraph {
-	Engineering [color=GREEN style=filled]
-	Engineering -> Workstations [label=43.0]
-	Workstations -> "Adab Street" [label=57.0]
-	"Adab Street" -> Sports [label=96.0]
-	Art [color=ORANGE style=filled]
-	Sports -> Art [label=48.0]
+	Ritaj [color=GREEN style=filled]
+	Ritaj -> Law [label=49.5]
+	Law -> Council [label=30.0]
+	Council -> Bank [label=55.0]
+	Bank -> "Law 2" [label=53.0]
+	"Law 2" -> "Law Art Edu" [label=42.0]
+	"Law Art Edu" -> Education [label=24.0]
+	Zaani [color=ORANGE style=filled]
+	Education -> Zaani [label=70.0]
 }

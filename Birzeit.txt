@@ -1,5 +1,7 @@
-40 49
+42 49
 North_West_Point 512 243
+xx 600 300
+yy 600 400
 Back_Street 321 712
 Services 101 1240
 Abu_Ahmad 39 1474

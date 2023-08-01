@@ -195,8 +195,7 @@ class Dijkstra:
             elif entry.equal(Entry(Node.get_node(dest))):
                 self.dest = entry
             self.node_name_entries_dict[node.name] = entry
-        self.find_path(self.source, self.dest)
-        # self.path = self.trace_back(self.dest)
+        # self.find_path(self.source, self.dest)
 
     def find_path(self, source, dest):
         heap = MinHeap()
@@ -205,6 +204,8 @@ class Dijkstra:
         while not heap.is_empty():
             cur_entry = heap.remove_top()
             cur_entry.make_discovered()
+            if cur_entry.equal(dest):
+                break
             for neighbor in cur_entry.get_neigbors():
                 temp_entry = self.get_entry(neighbor.node.name)
                 if temp_entry.discovered:
@@ -216,17 +217,21 @@ class Dijkstra:
                     temp_entry.in_heap = True
                     heap.insert(temp_entry)
 
-        self.trace_back(dest)
+        return self.trace_back(dest)
 
     def trace_back(self, dest):
         path = []
         cur_entry = dest
         while not cur_entry.equal(self.source):
             path.append(cur_entry)
+            if cur_entry.prev is None:
+                print("No path")
+                return False
             cur_entry = cur_entry.prev
         path.append(self.source)
         path.reverse()
         self.path = path
+        return True
         # return path
 
     def get_entry(self, node_name):
